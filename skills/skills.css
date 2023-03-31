@@ -1,0 +1,76 @@
+* {
+	
+	box-sizing: border-box;
+}
+.teen {
+	color:black;
+	text-align:justify;
+	font-size: 20px;
+	border-radius: 15px;
+	background: white;
+	padding: 5px;
+	width:auto;
+	height:auto;
+	font-family:Cambria;
+	
+}
+.interest {
+	color:black;
+	text-align:justify;
+	font-size: 20px;
+	border-radius: 15px;
+	background: white;
+	padding: 5px;
+	width:  auto;
+	height:auto;
+	font-family:Cambria;
+}
+
+a {
+	text-decoration:none;
+	font-family: Cambria;
+	margin-bottom: 40px;
+	
+}
+a:hover {
+	text-decoration:none;
+	font-family: Cambria;
+	background-color: #6d6c83;
+	margin-bottom: 40px;
+	transition:1s;
+
+}
+img{
+	width:300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:20px;
+	border: 3px solid white;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+} 
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.savage {
+	color:black;
+	text-align:justify;
+	font-size: 20px;
+	border-radius: 15px;
+	background: white;
+	padding: 5px;
+	width:  auto;
+	height:  auto;
+	font-family:Cambria;
+}
+
+
+

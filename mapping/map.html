@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dream Places</title>
+	<link rel="shortcut icon" 
+href="haha.png" 
+type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href = "style.css">
+	<script language="JavaScript">
+		function writeText(txt) {
+			document.getElementById("desc").innerHTML=txt;
+		}
+		function dissolveText(txt) {
+			document.getElementById("desc").innerHTML=txt;
+		}
+	</script>
+
+</head>
+<body style="background-color:#E2DFD2">
+<br><br>
+		<h1>My Dream Places To Visit</h1>
+		<br>
+		<div class="center">
+		<img src="slow.png" usemap="#worldmap" style="align-items:center">
+		<map name="worldmap">
+			<area shape="rect" coords="575,329,677,424" href="dubai/dubai.html" onMouseOver="writeText('As the largest city in the UAE, Dubai has been at the forefront of this transformation, attracting millions of visitors each year with its world-class attractions and luxurious amenities.');" onMouseOut="dissolveText('')" />
+			<area shape="circle" coords="65,339,50"  href="san francisco/golden.html" onMouseOver="writeText('The Golden Gate Bridge is a world-famous landmark that has come to symbolize the city of San Francisco and the United States as a whole. Completed in 1937, the bridge spans the Golden Gate Strait, connecting the city of San Francisco to Marin County to the north.');" onMouseOut="dissolveText('')">
+			<area shape="poly" coords="77,33,73,67,90,92,123,104,154,88,173,53,153,17,133,6,108,6" href="canada/toronto.html" onMouseOver="writeText('Toronto, the largest city in Canada and the capital of the province of Ontario, is a vibrant and diverse metropolis that boasts a rich history, a thriving arts and culture scene, and a rapidly growing economy. ');" onMouseOut="dissolveText('')">
+			<area shape="circle" coords="319,366,50"  href="france/paris.html" onMouseOver="writeText('Paris is renowned for its stunning architecture, rich cultural heritage, and world-class cuisine. With its iconic landmarks such as the Eiffel Tower and the Louvre Museum.');" onMouseOut="dissolveText('')">
+			<area shape="circle" coords="467,46,50" href="japan/tokyo.html" onMouseOver="writeText('Mount Fuji attracts millions of visitors each year who come to hike its trails, take in its breathtaking views, and immerse themselves in the rich history and culture of the surrounding region.');" onMouseOut="dissolveText('')">
+		</map>
+		</div>
+	<p id="desc"></p>		
+	<div class="button">
+	<a href="../landing.html">Back to the homepage</a>
+	</div>		
+</body>
+</html>

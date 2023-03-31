@@ -1,0 +1,145 @@
+* {
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	list-style:none;
+}
+.main{
+	width:100%;
+	height:100vh;
+	display:flex;
+	text-align:center;
+}
+.menu {
+	width:30%;
+	background-image:linear-gradient(#96d4ca,#7c65a9);
+}
+#logo {
+	color:#fff;
+	font-size:60px;
+	letter-spacing:4px;
+	padding:15px;
+	background-color:#243748;
+	font-family:Cambria;
+}
+.menu a {
+	text-decoration:none;
+	color:#fff;
+	font-size:25px;
+	letter-spacing:2px;
+	display:list-item;
+	padding:48.9px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-transform:uppercase;
+	font-family:Copperplate Gothic Light;
+}
+.menu a:hover {
+	background-color:#243748;
+	transition:0.5s;
+	letter-spacing:4px;
+	text-transform:uppercase;
+}
+.body {
+	width:1500px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:linear-gradient(rgba(5,15,25,0.6),rgba(10,5,30,1)), url('jj.jpg');
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	min-height:100%;
+	min-width:70%;
+}
+.body h1 {
+	margin-top:230px;
+	color:#fff;
+	text-transform:uppercase;
+	font-family:Constantia;
+	
+}
+.ivos {
+	padding-top:230px;
+	display:flex;
+	flex-direction:column;
+	color:#fff;
+	text-align:center;
+	 top: 50%;
+    left: 100%;
+	width: 100%;
+	font-size:26px;
+}
+.ivos > p {
+	margin-left:30px;
+	margin-right:40px;
+	margin-top:15px;
+	font-family:San Serif;
+	font-size:5px;
+	opacity:0.5;
+}
+.message {
+	text-decoration:none;
+	text-transform:uppercase;
+	margin-top:70px;
+	color:#FFD700;
+	
+}
+
+.message a{
+	font-family:Sans-Serif;
+	letter-spacing:4px;
+	color:white;
+	border:2px solid white;
+	padding:15px 25px;
+	text-decoration:none;
+	font-size:15px;
+}
+
+.message a:hover{
+	border: 2px solid white;
+	color:red;
+	background:white;
+	transition:0.5s;
+}
+@media only screen and (min-width: 1280px) {
+	.menu a {
+		padding:25px;
+		font-size:14px;
+	}
+	#logo {
+		font-size:42px;
+	}
+	.body h1 {
+		font-size:30px;
+		margin-top:55px;
+	}
+	.body p{
+		font-size:14px;
+		line-height:25px;
+	}
+	.menu {
+		width:100%;
+	}
+}
+@media only screen and (min-width: 1920px) {
+	.menu a {
+		padding:37px;
+		font-size:23px;
+	}
+	#logo {
+		font-size:60px;
+	}
+	.body h1 {
+		font-size:50px;
+		margin-top:190px;
+	}
+	.body p {
+		font-size:20px;
+		line-height:40px;
+		text-align:center;
+	}
+}
+
+}
+
+	
